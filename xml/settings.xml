@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="0.1">
+<chatroom>
+<server title="Chat Room" desc="The default Chat Room"></server>
+<access block="blocked" guest="guest" user="user" mod="mod" admin="admin"></access>
+<sysadmin email="tgillan@gmail.com" password="testtest" username="AdminUser" fname="System" lname="Administrator" access="admin"></sys>
+<blockroom title="quarantine" desc="Waiting for access" access="guest"></blockroom>
+<foyerroom title="foyer" desc="Default Room - waiting to change rooms" access="user"></foyerroom>
+</chatroom>
+</settings>
