@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chatroom version="0.1">
+<user email="test@gmail.com" firstname="test" lastname="user"></user>
+<user email="test2@gmail.com" firstname="test2" lastname="user2"></user>
+</chatroom>
