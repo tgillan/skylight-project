@@ -1,0 +1,119 @@
+/**
+ * css style scripts here
+ */
+
+body {
+	background: #3f4c6b; /* Old browsers */
+	background: -moz-linear-gradient(top,  #3f4c6b 0%, #606c88 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3f4c6b), color-stop(100%,#606c88)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3f4c6b 0%,#606c88 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3f4c6b 0%,#606c88 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3f4c6b 0%,#606c88 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3f4c6b 0%,#606c88 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#606c88',GradientType=0 ); /* IE6-9 */
+}
+h1,h2,h3,h4 {
+	font-size:16px;
+}
+p {
+	font-size:12px;
+}
+
+/* containers */
+#maincontainer {
+	background-color: #fff;
+	padding: 0 0 10px 0;
+	margin: 0 auto;
+	max-width: 800px;
+}
+.container {
+	background-color:rgba(255, 255, 255, 0.4);
+	width:100%;
+	max-width:700px;
+	min-height: 30px;
+	margin: 10px auto;
+	padding: 0 10px;
+	border: solid 1px #eee;
+}
+#bannercontainer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	max-width: 100%;
+	padding: 0;
+	border: 0px solid #fff;
+}
+#querycontainer {
+	border: 1px solid #eee;
+	padding: 0 10px;
+}
+#accountcontainer {
+	padding: 0 10px;
+	border: 1px solid #eee;
+}
+#commandcontainer {
+	
+}
+#chatcontainer {
+	
+}
+#outputcontainer {
+	
+}
+
+/* panels */
+.panel {
+	background-color:rgba(255, 255, 255, 0.6);
+	max-width:640px;
+	margin: 10 auto;
+}
+.subpanel {
+	max-width:100%;
+	margin: 1px 5px 1px 5px;
+	margin: 10 auto;
+}
+.streampanel {
+	max-width:100%;
+	min-height:200px;
+	max-height:480px;
+	background-color:#333;
+}
+
+/* text input fields and areas */
+.textareainput {
+	width:100%;
+}
+#cmessageinput {
+	
+}
+#outputbox {
+	
+}
+#serverinfo {
+	
+}
+
+input#servername {
+	width:100%; 
+}
+input#serverinfo {
+	width:100%; 
+}
+
+/* buttons */
+#showaccountbtn, #hideaccountbtn {
+	float:right;
+}
+
+#showdialogbtn, #hidedialogbtn {
+	float:right;
+}
+
+#showchatbtn, #hidechatbtn {
+	float:right;
+}
+
+#showvideobtn, #hidevideobtn {
+	float:right;
+}
