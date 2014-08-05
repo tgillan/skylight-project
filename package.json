@@ -1,0 +1,40 @@
+{
+  "name": "Skylight-Project-2014",
+  "version": "1.0.0",
+  "description": "OpenShift Node.js Application",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift",
+	 "Skylight",
+	 "Project"
+  ],
+  "author": {
+    "name": "Tony Gillan",
+    "email": "tgillan@gmail.com",
+    "url": "http://skylightcreative.com.au/"
+  },
+  "homepage": "http://skylightcreative.com.au/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0"
+  },
+
+  "dependencies": {
+	"socket.io" : "0.9.16",
+	"ws" : "0.4.31",
+	"xml2js" : "*",
+	"nodemailer" : "1.0"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "server.js"
+}
